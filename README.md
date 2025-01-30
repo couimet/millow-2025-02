@@ -32,14 +32,15 @@ For a deeper dive into specific improvements, check out:
 - [React.js](https://reactjs.org/) (Frontend Framework)
 
 ## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
+- Install [NodeJS](https://nodejs.org/) using [Node Version Manager (nvm)](https://nvm.sh):
+  `$ nvm use || nvm install`
 
 ## Setting Up
 ### 1. Clone/Download the Repository
 
 ### 2. Install Dependencies:
 
-> 💡 pro-tip: in order to run the same version of `Node.js` as used in https://youtu.be/C4blK6X-D_4, please run "`nvm use || nvm install`" before running "`npm install`".
+> 💡 **Pro Tip:** To ensure you're using the correct Node.js version for this project, run "`nvm use || nvm install`" before installing dependencies.
 
 `$ npm install`
 
