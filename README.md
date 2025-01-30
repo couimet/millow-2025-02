@@ -1,12 +1,27 @@
-# Real Estate NFT DApp - Step-by-Step
+# Real Estate NFT DApp - Step-by-Step (2025-02)
 
-This repository is forked from [dappuniversity/millow](https://github.com/dappuniversity/millow). Full credit for the original work goes to [Gregory McCubbin](https://www.linkedin.com/in/gregory-mccubbin-48735b37/), the creator of [Dapp University](https://www.youtube.com/@DappUniversity) and [Dapp University's Instagram](https://www.instagram.com/dappuniversity/).
+This project is a step-by-step modernization of [`millow`](https://github.com/dappuniversity/millow), a decentralized real estate marketplace DApp created in October 2022. The goal is to update dependencies, improve the codebase, and adopt best practices with the latest Ethereum development tools.
 
-I created the `step_by_step_progress` branch to serve as a _follow-along_ branch for tracking my progress through the tutorial available on [this YouTube video](https://youtu.be/C4blK6X-D_4).
+Built on top of my [`step_by_step_progress`](https://github.com/couimet/millow/tree/step_by_step_progress#readme) project, this version introduces several improvements to ensure compatibility with modern Ethereum development tools.
 
-Each commit in this branch corresponds to a specific point in the tutorial, and the commit messages include timestamps to match the YouTube video; [see the commits for the details](https://github.com/couimet/millow/commits/step_by_step_progress/).
+## Key Updates in This Project
 
-> **Note:** The rest of this `README` is identical to the original file, except for the addition of a small note below about using `nvm` before running `npm install`.
+### Dependencies & Compatibility
+- Updated dependencies to the latest versions and removed unused ones
+- Upgraded `Solidity` to version `0.8.28`
+- Refactored code to work with the latest Ethereum development tools
+
+### Testing & Deployment
+- Updated unit tests to use Hardhat's fixtures instead of `beforeEach()` blocks
+- Refactored the Hardhat deployment script to use [Ignition Modules](https://hardhat.org/ignition/docs/getting-started#overview)
+
+### Miscellaneous Improvements
+- Various minor enhancements for readability, maintainability, and performance
+
+For a deeper dive into specific improvements, check out:
+- [Commit history](https://github.com/couimet/millow-2025-02/commits/update_2025-02/) for a detailed breakdown of changes.
+- [Comparison with the previous version](https://github.com/couimet/millow-2025-02/compare/step_by_step_progress..update_2025-02) leveraging the branch comparison feature of GitHub.
+- [My follow-along guide](https://ouimet.info/follow-alongs/millow.html) for the initial starting point and step-by-step walkthrough.
 
 ## Technology Stack & Tools
 
