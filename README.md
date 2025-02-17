@@ -52,7 +52,7 @@ For a deeper dive into specific improvements, check out:
 
 ### 5. Run deployment script
 In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
+`$ npx hardhat ignition deploy ignition/modules/RealEstate.js --network localhost`
 
 ### 7. Start frontend
 `$ npm run start`
