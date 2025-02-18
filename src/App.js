@@ -24,7 +24,7 @@ function App() {
   const [toggle, setToggle] = useState(false)
 
   const loadBlockchainData = async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum)
+    const provider = new ethers.BrowserProvider(window.ethereum)
     setProvider(provider)
 
     const network = await provider.getNetwork()
@@ -46,7 +46,7 @@ function App() {
 
     window.ethereum.on('accountsChanged', async () => {
       const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-      const account = ethers.utils.getAddress(accounts[0])
+      const account = ethers.getAddress(accounts[0])
       setAccount(account)
     })
   }
